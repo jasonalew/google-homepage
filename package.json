@@ -1,0 +1,17 @@
+{
+  "name": "google-homepage",
+  "version": "1.0.0",
+  "description": "html css practice",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasonalew/google-homepage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/jasonalew/google-homepage",
+  "devDependencies": {
+    "browser-sync": "^2.6.4",
+    "gulp": "^3.8.11"
+  }
+}
