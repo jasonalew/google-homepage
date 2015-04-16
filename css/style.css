@@ -65,6 +65,43 @@ a {
     margin: 0 auto -40px;
     background-color:#fff;
 }
+
+header li {
+	font-size: 14px;
+	display: inline-block;
+	margin: 24px 6px 0;
+	vertical-align: top;
+}
+header ul {
+	float: right;
+}
+.top-nav {
+	width: 32px; height: 32px;
+	background-image: url(../img/g-sprite1.png);
+	background-size: 356px 144px;
+	opacity: .55;
+}
+.nav-apps {
+	background-position: -326px -52px;
+	margin-top: -8px;
+}
+.nav-notification {
+	background-position: -214px -117px;
+	background-color: #000;
+	border-radius: 100%;
+	width: 20px; height: 20px;
+	margin-top: -2px;
+}
+.nav-share {
+	background-position: -326px -17px;
+	margin-top: -8px;
+}
+.avatar {
+	width: 32px; height: 32px;
+	border-radius: 16px;
+	overflow: hidden;
+	margin: -8px 16px 0 0;
+}
 footer, .push {
     height: 40px; width: 100%;
     background-color: #ededed;
