@@ -7,11 +7,10 @@
     "type": "git",
     "url": "https://github.com/jasonalew/google-homepage.git"
   },
-  "author": "",
-  "license": "ISC",
-  "homepage": "https://github.com/jasonalew/google-homepage",
   "devDependencies": {
     "browser-sync": "^2.6.4",
-    "gulp": "^3.8.11"
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-watch": "^4.2.4"
   }
 }
