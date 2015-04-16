@@ -1,0 +1,127 @@
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom CSS */
+* {
+    margin: 0;
+}
+
+html, body {
+  height: 100%;
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	color: #414141;
+}
+
+a {
+	color: #4c4c4c;
+	text-decoration: none;
+	font-weight: 500;
+}
+a:hover {
+	text-decoration: underline;
+}
+.wrapper {
+  min-height: 100%;
+  margin: 0 auto -40px;
+  background-color:#fff;
+}
+
+header li {
+	font-size: 14px;
+	display: inline-block;
+	margin: 24px 6px 0;
+	vertical-align: top;
+}
+header ul {
+	float: right;
+}
+.top-nav {
+	width: 32px; height: 32px;
+	background-image: url(../img/g-sprite1.png);
+	background-size: 356px 144px;
+	opacity: .55;
+}
+.top-nav:hover {
+	opacity: 1.0;
+}
+.nav-apps {
+	background-position: -326px -52px;
+	margin-top: -8px;
+}
+.nav-notification {
+	background-position: -214px -117px;
+	background-color: #000;
+	border-radius: 100%;
+	width: 20px; height: 20px;
+	margin-top: -2px;
+}
+.nav-share {
+	background-position: -326px -17px;
+	margin-top: -8px;
+}
+.avatar {
+	width: 32px; height: 32px;
+	border-radius: 16px;
+	overflow: hidden;
+	margin: -8px 16px 0 0;
+}
+footer, .push {
+  height: 40px; width: 100%;
+  background-color: #ededed;
+	border-top: 1px solid #dfdfdf;
+}
+footer li {
+	font-size: 13px;
+	display: inline-block;
+	margin: 13px 12px 0;
+}
+footer ul:first-child {
+	margin-left: 14px;
+	float: left;
+}
+footer ul:last-child {
+	margin-right: 14px;
+	float: right;
+}
