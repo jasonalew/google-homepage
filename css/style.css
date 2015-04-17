@@ -48,9 +48,8 @@ table {
     margin: 0;
 }
 
-
 html, body {
-    height: 100%;
+  height: 100%;
 	font-family: Arial, "MS Trebuchet", sans-serif;
 	color: #414141;
 }
@@ -60,10 +59,13 @@ a {
 	text-decoration: none;
 	font-weight: 500;
 }
+a:hover {
+	text-decoration: underline;
+}
 .wrapper {
-    min-height: 100%;
-    margin: 0 auto -40px;
-    background-color:#fff;
+  min-height: 100%;
+  margin: 0 auto -40px;
+  background-color:#fff;
 }
 
 header li {
@@ -80,6 +82,9 @@ header ul {
 	background-image: url(../img/g-sprite1.png);
 	background-size: 356px 144px;
 	opacity: .55;
+}
+.top-nav:hover {
+	opacity: 1.0;
 }
 .nav-apps {
 	background-position: -326px -52px;
@@ -102,9 +107,33 @@ header ul {
 	overflow: hidden;
 	margin: -8px 16px 0 0;
 }
+article {
+	max-width: 650px;
+	margin: 0 auto;
+	clear: both;
+}
+.logo {
+	margin: 0 auto;
+	width: 264px;
+}
+article img {
+	float: left;
+	margin-top: 140px;
+}
+.search {
+
+	clear: both;
+	width: 487px;
+	margin: 0 auto;
+}
+.search input {
+	width: 487px; height: 24px;
+	margin-top: 26px;
+}
+
 footer, .push {
-    height: 40px; width: 100%;
-    background-color: #ededed;
+  height: 40px; width: 100%;
+  background-color: #ededed;
 	border-top: 1px solid #dfdfdf;
 }
 footer li {

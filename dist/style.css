@@ -107,6 +107,30 @@ header ul {
 	overflow: hidden;
 	margin: -8px 16px 0 0;
 }
+article {
+	max-width: 650px;
+	margin: 0 auto;
+	clear: both;
+}
+.logo {
+	margin: 0 auto;
+	width: 264px;
+}
+article img {
+	float: left;
+	margin-top: 140px;
+}
+.search {
+
+	clear: both;
+	width: 487px;
+	margin: 0 auto;
+}
+.search input {
+	width: 487px; height: 24px;
+	margin-top: 26px;
+}
+
 footer, .push {
   height: 40px; width: 100%;
   background-color: #ededed;
