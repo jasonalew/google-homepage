@@ -190,11 +190,20 @@ footer ul:last-child {
 	margin-right: 14px;
 	float: right;
 }
+#mobile-location {
+	display: none;
+}
 
 @media screen and (max-width: 500px) {
 	.wrapper {
 		min-height: 100%;
 		overflow: hidden;
+		margin: 0 auto -54px;
+	}
+	header {
+		height: 54px;
+		background-color: #ededed;
+		border-bottom: 1px solid #d9d9d9;
 	}
 	.avatar {
 		border-radius: 0;
@@ -239,12 +248,18 @@ footer ul:last-child {
 		display: none;
 	}
 	footer {
-		height: 80px;
+		height: 130px;
 		text-align: center;
 	}
 	footer ul:first-child, footer ul:last-child {
 		float: none;
 		margin: 0 auto;
 	}
-
+	#mobile-location {
+		display: block;
+		margin-top: 22px;
+		margin-bottom: 2px;
+		border-bottom: 1px solid #d9d9d9;
+		height: 34px;
+	}
 }
