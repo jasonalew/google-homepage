@@ -49,9 +49,10 @@ table {
 }
 
 html, body {
-  height: 100%;
+  width: 100%; height: 100%;
 	font-family: Arial, "MS Trebuchet", sans-serif;
 	color: #414141;
+
 }
 
 a {
@@ -67,6 +68,7 @@ a:hover {
 	min-height: 460px;
   margin: 0 auto -40px;
   background-color:#fff;
+	width: 100%;
 }
 
 header li {
@@ -133,15 +135,19 @@ article img {
 	font-size: 16px;
 	padding-right: 18px;
 }
-.search img {
+#search-img {
 	float: right;
-	margin: -30px 0 0;
+	margin: 0;
 	position: absolute;
-	right: 2px;
-	top: 62px;
-	opacity: .55;
+	right: -1px;
+	top: 27px;
+	box-sizing: border-box;
 }
-.search img:hover {
+#search-img img {
+	opacity: .55;
+	margin-top: 4px;
+}
+#search-img img:hover {
 	opacity: 1.0;
 }
 .buttons {
@@ -183,4 +189,62 @@ footer ul:first-child {
 footer ul:last-child {
 	margin-right: 14px;
 	float: right;
+}
+
+@media screen and (max-width: 500px) {
+	.wrapper {
+		min-height: 100%;
+		overflow: hidden;
+	}
+	.avatar {
+		border-radius: 0;
+	}
+	.logo {
+		width: 183px;
+	}
+	article img {
+		margin-top: 60px;
+		width: 183px; height: 64px;
+	}
+	.search {
+		width: 100%;
+		padding: 0 20px;
+		margin: 0 -10px;
+		box-sizing: border-box;
+	}
+	.search input {
+		width: 100%;
+		height: 30px;
+		margin-top: 18px;
+		padding-right: 0 18px 0 0;
+	}
+
+	#search-img {
+		background-color: #4d90fe;
+		opacity: 1.0;
+		background-image: url(../img/mag-glass.png);
+		background-size: 15px 15px;
+		background-repeat: no-repeat;
+		background-position: 11px 11px;
+		width: 35px; height: 35px;
+		padding-left: 30px;
+		border-radius: 2px;
+		top: 19px;
+		right: -4px;
+	}
+	#search-img img {
+		opacity: 0;
+	}
+	.buttons {
+		display: none;
+	}
+	footer {
+		height: 80px;
+		text-align: center;
+	}
+	footer ul:first-child, footer ul:last-child {
+		float: none;
+		margin: 0 auto;
+	}
+
 }
